@@ -1,7 +1,7 @@
 package myList;
 
 
-public class MyLinkedList2 {
+public class MyLinkedList {
 	private Node first ;
 	private Node last;
 	private int size;
@@ -92,7 +92,7 @@ public class MyLinkedList2 {
 	
 	//≤‚ ‘
 	public static void main(String[] args) {
-		MyLinkedList2 list = new MyLinkedList2();
+		MyLinkedList list = new MyLinkedList();
 		list.add("aaa");
 		list.add("bbb");
 		list.add("ccc");
